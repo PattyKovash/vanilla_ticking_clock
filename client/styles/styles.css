@@ -5,7 +5,7 @@ html {
   color: #424242;
 }
 
-*, *:before, *:after {
+*, *:before, *:after, *:visited, *:active {
   box-sizing: inherit;
   text-decoration: none;
   outline: none;
@@ -24,6 +24,7 @@ body {
 
 .red {
   color: #e85a4f;
+  text-transform: uppercase;
 }
 
 .clock-container {
@@ -53,13 +54,27 @@ body {
 
 .hand {
   background: #8e8d8a;
+  border-radius: 20px;
   width: 50%;
   height: 3px;
   top: 50%;
   position: absolute;
   transform-origin: 100%;
   transform: rotate(90deg) translateY(-1.5px);
+}
 
+.hour {
+  width: 40%;
+  left: 10%;
+}
+
+.min {
+  width: 45%;
+  left: 5%;
+}
+
+.sec {
+  background: #d8c3a5;
 }
 
 #footer p {
