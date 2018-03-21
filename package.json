@@ -1,0 +1,23 @@
+{
+  "name": "ticking_clock",
+  "version": "1.0.0",
+  "description": "Ticking clock with vanilla JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PattyKovash/vanilla_ticking_clock.git"
+  },
+  "author": "Patty Kovash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PattyKovash/vanilla_ticking_clock/issues"
+  },
+  "homepage": "https://github.com/PattyKovash/vanilla_ticking_clock#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
